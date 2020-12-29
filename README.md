@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Wipesoft.xyz Web Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is going to be the main part of the portfolio i'm beginning to work on.
+The intent is to self host, develop and deploy a website from scratch.
 
-## Available Scripts
 
-In the project directory, you can run:
+Website should be accessable at www.wipesoft.xyz
 
-### `npm start`
+I'm working on this in my spare time, progress will likely be slow so i'll outline a plan below
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## The Plan
 
-### `npm test`
+Everything is in cronological order
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Completed
 
-### `npm run build`
+* Purchase domain
+* Setup webserver using reverse proxy on my unraid server
+* Setup port forwarding, firewall rules, etc
+* Configure CloudFlare to prevent bad things and use their caching
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### In Progress
+* Develop a basic site/template using react for testing deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Up Next
+* Containerise the testing website for depolyment using docker
+* Deoply test website docker on unraid server, configure reverse proxy
+* Develop simple RESTful API using Node.js and MySQL server (API is planned to be at api.wipesoft.xyz)
+* Containerise API and MySQL. Deploy using docker
+* Make website, API and MySQL talk to eachother and test that deployment is possible
+* Develop full website, extened API and database functionality
