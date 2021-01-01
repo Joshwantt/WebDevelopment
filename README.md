@@ -6,6 +6,8 @@ The intent is to self host, develop and deploy a website from scratch.
 
 Website should be accessable at www.wipesoft.xyz
 
+NOTE: Swapping ISPs over the next week so website might not be accessable for a bit
+
 I'm working on this in my spare time, progress will likely be slow so i'll outline a plan below
 
 
