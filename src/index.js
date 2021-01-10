@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Menu from './Menu';
+import Footer from './Foot';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render(
-  <Menu />,
-  document.getElementById('header')
+  <Menu />, document.getElementById('header')
+
+);
+
+ReactDOM.render(
+  <Footer />, document.getElementById('footer')
+
 );
 
 

@@ -10,10 +10,12 @@ const Header = () => {
         textAlign='center'
         style={{ minHeight: 50, padding: '0em 0em' }}
         vertical>
-        <Menu secondary pointing>
+        <Menu pointing secondary>
             <Image src={logo} avatar size={"tiny"} />
             <Menu.Item style={{ color: 'white' ,fontSize: 30 }}>Wipesoft</Menu.Item>
-            <Menu.Item style={{ color: 'white' ,fontSize: 20}}>hello</Menu.Item>
+            <Menu.Item name = 'contact' position ="right" style={{ color: 'white' ,fontSize: 20}}>Projects</Menu.Item>
+            <Menu.Item position ="right" style={{ color: 'white' ,fontSize: 20}}>Home</Menu.Item>
+            <Menu.Item position ="right" style={{ color: 'white' ,fontSize: 20}}>About</Menu.Item>
             <Menu.Item position="right">
                 <Button icon inverted style={{ padding: '1em 1em' }}>
                     <Icon name ='sign in' />
